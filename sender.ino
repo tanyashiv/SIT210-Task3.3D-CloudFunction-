@@ -32,7 +32,7 @@ MqttClient mqttClient(wifiClient); // Create an MQTT client object
 // MQTT broker information
 const char broker[] = "broker.mqttdashboard.com"; // MQTT broker address
 int port = 1883;   // MQTT broker port
-const char topic[] = "SIT210/waves";  // MQTT topic to publish data
+const char topic[] = "tanya-wave";  // MQTT topic to publish data
 
 const long interval = 1000; // Sensor data transmission interval (milliseconds)
 unsigned long previousMillis = 0;// Keep track of the last time data was sent.
